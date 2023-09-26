@@ -3,6 +3,7 @@ import MainLayout from "../Layout/MainLayout";
 import Home from "../pages/Home/Home";
 import Donation from "../pages/Donation/Donation";
 import Statistics from "../pages/Statistics/Statistics";
+import CardDetails from "../pages/CardDetails/CardDetails";
 
 const myCreatedRoute = createBrowserRouter([
     {
@@ -21,6 +22,10 @@ const myCreatedRoute = createBrowserRouter([
             {
                 path: "/statistics",
                 element: <Statistics></Statistics>
+            },
+            {
+                path: "/card/:id",
+                element: <CardDetails></CardDetails>
             }
         ],
     }

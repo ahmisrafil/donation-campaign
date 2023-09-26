@@ -5,9 +5,9 @@ const Banner = () => {
             <div className="hero-overlay bg-opacity-90"></div>
             <div className="hero-content text-center text-neutral-content py-40">
                 <div >
-                    <h1 className="mb-16 text-5xl font-bold">I Grow By Helping People In Need</h1>
+                    <h1 className="mb-6 md:mb-16 text-xl md:text-5xl font-bold">I Grow By Helping People In Need</h1>
                     <input type="text" placeholder="Search here" className="rounded-s-md  input-md w-full max-w-xs" />
-                    <button className="btn rounded-s-none bg-[#FF444A] text-white border-none">Get Started</button>
+                    <button className="btn  md:rounded-s-none bg-[#FF444A] text-white border-none">Get Started</button>
                 </div>
             </div>
         </div>
