@@ -7,16 +7,17 @@ import 'react-toastify/dist/ReactToastify.css';
 
 const CardDetails = () => {
     const [card, setCard] = useState({});
-
     const { id } = useParams();
-
     const cards = useLoaderData();
 
     useEffect(() => {
         const findCard = cards?.find(card => card.id == id)
         setCard(findCard)
     }, [id, cards])
+
     const { text_color, title, description } = card;
+
+
     const notifyDonate = () => {
         toast.success('You have successfully donated to the campaign', {
             position: "top-center",
@@ -29,6 +30,9 @@ const CardDetails = () => {
             theme: "light",
             });
     };
+
+
+
     const handleDonate = () => {
 
         const donatedCardsArray = [];
