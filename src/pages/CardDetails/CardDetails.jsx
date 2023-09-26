@@ -1,6 +1,10 @@
 import { useEffect, useState } from "react";
 import { useLoaderData, useParams } from "react-router-dom";
 
+import { ToastContainer, toast } from 'react-toastify';
+
+import 'react-toastify/dist/ReactToastify.css';
+
 const CardDetails = () => {
     const [card, setCard] = useState({});
 
@@ -12,20 +16,41 @@ const CardDetails = () => {
         const findCard = cards?.find(card => card.id == id)
         setCard(findCard)
     }, [id, cards])
-    const { category_bg_color, text_color, title, description } = card;
-
+    const { text_color, title, description } = card;
+    const notifyDonate = () => {
+        toast.success('You have successfully donated to the campaign', {
+            position: "top-center",
+            autoClose: 3000,
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+            theme: "light",
+            });
+    };
     const handleDonate = () => {
-        console.log(card);
+
+        const donatedCardsArray = [];
+
+        const donatedCards = JSON.parse(localStorage.getItem('donatedCard'))
 
 
-
-
+        if (!donatedCards) {
+            donatedCardsArray.push(card);
+            localStorage.setItem('donatedCard', JSON.stringify(donatedCardsArray));
+            notifyDonate();
+        }
+        else {
+            donatedCardsArray.push(...donatedCards, card)
+            localStorage.setItem('donatedCard', JSON.stringify(donatedCardsArray));
+            notifyDonate();
+        }
     }
 
 
     const styles = {
-        color: text_color,
-        backgroundColor: category_bg_color,
+        backgroundColor: text_color,
     }
 
     return (
@@ -36,6 +61,7 @@ const CardDetails = () => {
                 </div>
                 <div className="p-2 ml-4">
                     <button onClick={handleDonate} style={styles} className="btn btn-primary border-none -mt-16 absolute ">Donate ${card?.price}</button>
+                    <ToastContainer />
                 </div>
                 <div className="mb-20">
                     <h2 className="card-title text-4xl font-bold mb-6">{title}</h2>
