@@ -1,25 +1,25 @@
 [
     {
       "id": 2,
-      "title": "Scholarships for Underprivileged Students",
+      "title": "Scholarships for Students",
       "image_url": "https://i.ibb.co/9t9V02r/edu.jpg",
       "category": "Education",
       "price": 25.00,
       "description": "Help underprivileged students access quality education through scholarships.",
-      "category_bg_color": "#3498db",
-      "card_border_color": "#2980b9",
-      "text_color": "#ffffff"
+      "category_bg_color": "#ccffcc",
+      "card_bg_color": "#99ff99",
+      "text_color": "#006600"
     },
     {
       "id": 12,
-      "title": "Rural Healthcare Clinics",
+      "title": "Healthcare Clinics",
       "image_url": "https://i.ibb.co/h2QG45w/health.jpg",
       "category": "Healthcare",
       "price": 45.00,
       "description": "Establish rural healthcare clinics to provide medical services in remote areas.",
       "category_bg_color": "#2ecc71",
-      "card_border_color": "#27ae60",
-      "text_color": "#ffffff"
+      "card_bg_color": "#27ae60",
+      "text_color": "#ffff66"
     },
     {
       "id": 8,
@@ -29,7 +29,7 @@
       "price": 20.00,
       "description": "Support community food gardens to promote self-sufficiency.",
       "category_bg_color": "#f1c40f",
-      "card_border_color": "#d4ac0d",
+      "card_bg_color": "#d4ac0d",
       "text_color": "#000000"
     },
     {
@@ -39,31 +39,31 @@
       "category": "Education",
       "price": 75.00,
       "description": "Support coding bootcamps to train the next generation of programmers.",
-      "category_bg_color": "#3498db",
-      "card_border_color": "#2980b9",
-      "text_color": "#ffffff"
+      "category_bg_color": "#ccffcc",
+      "card_bg_color": "#99ff99",
+      "text_color": "#006600"
     },
     {
       "id": 5,
-      "title": "Water Well Construction",
+      "title": "Well Construction",
       "image_url": "https://i.ibb.co/YfGsxhZ/water.jpgg",
       "category": "Water",
       "price": 40.00,
       "description": "Fund the construction of water wells in remote areas.",
       "category_bg_color": "#e74c3c",
-      "card_border_color": "#c0392b",
+      "card_bg_color": "#c0392b",
       "text_color": "#ffffff"
     },
     {
       "id": 10,
-      "title": "Medical Care for All",
+      "title": "MediCare for All",
       "image_url": "https://i.ibb.co/h2QG45w/health.jpg",
       "category": "Healthcare",
       "price": 40.00,
       "description": "Provide access to medical care and essential healthcare services.",
       "category_bg_color": "#2ecc71",
-      "card_border_color": "#27ae60",
-      "text_color": "#ffffff"
+      "card_bg_color": "#27ae60",
+      "text_color": "#ffff66"
     },
     {
       "id": 7,
@@ -73,18 +73,18 @@
       "price": 15.00,
       "description": "Provide emergency food aid to those affected by disasters.",
       "category_bg_color": "#f1c40f",
-      "card_border_color": "#d4ac0d",
+      "card_bg_color": "#d4ac0d",
       "text_color": "#000000"
     },
     {
       "id": 6,
-      "title": "Safe Drinking Water Initiatives",
+      "title": "Safe Water Initiatives",
       "image_url": "https://i.ibb.co/YfGsxhZ/water.jpg",
       "category": "Water",
       "price": 35.00,
       "description": "Support projects to ensure access to safe drinking water for all.",
       "category_bg_color": "#e74c3c",
-      "card_border_color": "#c0392b",
+      "card_bg_color": "#c0392b",
       "text_color": "#ffffff"
     },
     {
@@ -94,19 +94,19 @@
       "category": "Education",
       "price": 50.00,
       "description": "Support education initiatives to empower children and adults.",
-      "category_bg_color": "#3498db",
-      "card_border_color": "#2980b9",
-      "text_color": "#ffffff"
+      "category_bg_color": "#ccffcc",
+      "card_bg_color": "#99ff99",
+      "text_color": "#006600"
     },
     {
       "id": 4,
-      "title": "Clean Water for Communities",
+      "title": "Clean Water for All",
       "image_url": "https://i.ibb.co/YfGsxhZ/water.jpg",
       "category": "Water",
       "price": 30.00,
       "description": "Help provide clean and safe drinking water to communities in need.",
       "category_bg_color": "#e74c3c",
-      "card_border_color": "#c0392b",
+      "card_bg_color": "#c0392b",
       "text_color": "#ffffff"
     },
     {
@@ -117,8 +117,8 @@
       "price": 25.00,
       "description": "Support initiatives to raise awareness about mental health issues.",
       "category_bg_color": "#2ecc71",
-      "card_border_color": "#27ae60",
-      "text_color": "#ffffff"
+      "card_bg_color": "#27ae60",
+      "text_color": "#ffff66"
     },
     {
       "id": 9,
@@ -128,7 +128,7 @@
       "price": 25.00,
       "description": "Support nutrition programs to combat malnutrition in vulnerable populations.",
       "category_bg_color": "#f1c40f",
-      "card_border_color": "#d4ac0d",
+      "card_bg_color": "#d4ac0d",
       "text_color": "#000000"
     }
   ]
