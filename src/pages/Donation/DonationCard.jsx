@@ -20,7 +20,7 @@ const DonationCard = ({ card }) => {
 
     return (
         <div>
-            <div style={cardBg} className="flex rounded-lg  h-52 bg-base-100 shadow-xl">
+            <div style={cardBg} className="flex rounded-lg  h-60 lg:h-52 bg-base-100 shadow-xl">
                 <div><img className="h-52 w-52 rounded-s-lg" src={image_url} /></div>
                 <div className="rounded-e-lg mx-4 py-4">
                     <h3 style={categoryStyles} className="p-2 mb-2 text-sm font-medium rounded-lg w-fit">{category}</h3>

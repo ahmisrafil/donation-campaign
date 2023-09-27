@@ -1,10 +1,17 @@
+import PiChart from "./Pichart";
+
+
+
 
 const Statistics = () => {
+    
     return (
         <div>
-            <h3>statistics page</h3>
+            <PiChart></PiChart>
+            
         </div>
     );
 };
 
 export default Statistics;
+  
