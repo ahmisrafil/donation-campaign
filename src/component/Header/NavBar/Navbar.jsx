@@ -7,7 +7,7 @@ const Navbar = () => {
                 <div className="flex justify-center">
                     <img src="https://i.ibb.co/dr8fQP2/Logo.png" alt="" />
                 </div>
-                <ul className="flex flex-col lg:flex-row my-auto text-lg font-normal">
+                <ul className="flex flex-col md:flex-row my-auto md:justify-center text-lg font-normal">
                     <li className="mx-12">
                         <NavLink
                             to="/"
