@@ -6,6 +6,8 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 const CardDetails = () => {
+
+    
     const [card, setCard] = useState({});
     const { id } = useParams();
     const cards = useLoaderData();
